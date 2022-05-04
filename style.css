@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+  .home {
+    background-image: url(./static/image/castle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21.125rem;
+  }
+  .admins {
+    background-image: url(./static/image/groups.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 21.125rem;
+    background-position: 50%;
+  }
+  .insta {
+    background-image: url(./static/image/insta.png);
+    background-size: cover;
+    background-position: 50%;
+    transform: scale(1);
+    background-repeat: no-repeat;
+    height: 21.125rem;
+  }
+  .telegram {
+    background-image: url(./static/image/owl.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23.125rem;
+  }
+  .products {
+    background-image: url(./static/image/diagon.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23.125rem;
+  }
+  .about {
+    background-image: url(./static/image/about.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 23.125rem;
+  }
+  @media screen and (max-width: 1440px) {
+    .about,
+    .products,
+    .telegram,
+    .home {
+      background-position: 50%;
+  
+    }
+  }
+  @media screen and (min-width:426px) and (max-width: 1023px)  {
+    .insta {
+      transform: scale(1.2);
+      z-index: -1;
+    }
+  }
+  
