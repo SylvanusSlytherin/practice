@@ -1,15 +1,37 @@
-* {
-    padding: 0;
-    margin: 0;
-  }
-  div{
-    padding: 0 !important;
-  }
-.landing-image{
-  height: 100% !important;
-  
+body {
+  background-image: url(./stats/images/wall-members-min.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
-.insta{
-  size: 90% !important;
-  box-sizing:border-box !important;
+.mehdi-img {
+  width: 22.125rem;
+}
+.mehdi-card {
+  background: linear-gradient(
+    90deg,
+    rgba(127, 9, 9, 1) 58%,
+    rgba(255, 197, 0, 1) 100%
+  );
+}
+.mandana-card {
+  background: linear-gradient(
+    90deg,
+    rgba(13, 98, 23, 1) 58%,
+    rgba(86, 86, 86, 1) 100%
+  );
+}
+.farzan-card {
+  background: linear-gradient(
+    90deg,
+    rgba(238, 225, 23, 1) 58%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.sepehr-card{
+    background: linear-gradient(
+        90deg,
+        rgba(13, 98, 23, 1) 58%,
+        rgba(86, 86, 86, 1) 100%
+      );  
 }
